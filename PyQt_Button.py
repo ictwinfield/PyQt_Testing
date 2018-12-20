@@ -2,6 +2,7 @@ import sys
 from PyQt5 import QtWidgets
 
 def window():
+    # Create an QApplication so that we can set up an event loop
     app = QtWidgets.QApplication(sys.argv)
     w = QtWidgets.QWidget()
     btn = QtWidgets.QPushButton(w)
